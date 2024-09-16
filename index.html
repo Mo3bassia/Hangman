@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="overlay">
+      <div>
+        <div class="message">Sorry</div>
+        <button class="reload">Play Again!</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="info">
+        <p>Creator: <span>Mo3bassia</span></p>
+        <p>Hungman</p>
+        <p class="hint">Hint: <span style="display: none"></span></p>
+        <p class="from">WordFrom: <span></span></p>
+      </div>
+      <div class="container-flex">
+        <div class="man">
+          <div class="base wrong-1"></div>
+          <div class="stand wrong-2"></div>
+          <div class="straight wrong-3">
+            <div class="bottom"></div>
+          </div>
+          <div class="circleDashed wrong-4"></div>
+          <!-- <div class="circle wrong-5"></div> -->
+          <div class="body wrong-5"></div>
+          <div class="hands wrong-6"></div>
+          <div class="legs wrong-7"></div>
+        </div>
+        <div class="inputs"></div>
+      </div>
+      <div class="result"></div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
